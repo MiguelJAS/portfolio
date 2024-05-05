@@ -1,0 +1,10 @@
+---
+import Section from "../Section.astro";
+import { work } from "../../cv.json";
+
+const { name, position, startDate, endDate, summary } = work;
+---
+
+<Section title="Experiencia">
+  <h3>{name}</h3>
+</Section>
