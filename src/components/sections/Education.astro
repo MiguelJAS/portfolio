@@ -1,5 +1,20 @@
 ---
 import Section from "../Section.astro";
+import {education} from "../../cv.json"
+
+
 ---
 
-<Section title="Educación" />
+<Section title="Educación" >
+
+  <ul>
+    {education.map(({institution, area, startDate, endDate }) =>
+    <li>
+      <h2>{institution}</h2>
+      <h3>{startDate} - {endDate}</h3>
+      <p>{area}</p>
+    </li>
+    )}
+  </ul>
+
+  </Section>

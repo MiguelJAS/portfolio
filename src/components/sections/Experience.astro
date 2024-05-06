@@ -1,10 +1,15 @@
 ---
 import Section from "../Section.astro";
 import { work } from "../../cv.json";
-
-const { name, position, startDate, endDate, summary } = work;
 ---
 
 <Section title="Experiencia">
-  <h3>{name}</h3>
+  <ul>
+    {work.map(({name, startDate,endDate,summary,position }) =>
+      <li>{name}</li>
+      <li>{position}</li>
+      <li>{startDate} - {endDate}</li>
+      <li>{summary}</li>
+    )}
+  </ul>
 </Section>

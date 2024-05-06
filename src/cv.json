@@ -1,85 +1,89 @@
 {
-    "basics": {
-      "name": "Miguel Jesús Alfonso Sánchez",
-      "label": "Software Developer",
-      "image": "/public/miguel.jpg",
-      "email": "miguel.alfonso.sanchez@gmail.com",
-      "phone": "692039273",
-      "url": "",
-      "summary": "Aficionado a la programación y el deporte. Enfocado en aprender nuevas tecnologías y seguir creciendo como profesional cada día",
-      "location": {
-        "address": "Calle Del Roble 64",
-        "postalCode": "30320",
-        "city": "Fuente Alamo",
-        "countryCode": "España",
-        "region": "Murcia"
-      },
-      "profiles": [{
+  "basics": {
+    "name": "Miguel Jesús Alfonso Sánchez",
+    "label": "Software Developer",
+    "image": "/public/miguel.jpg",
+    "email": "miguel.alfonso.sanchez@gmail.com",
+    "phone": "692039273",
+    "url": "",
+    "summary": "Aficionado a la programación y el deporte. Enfocado en aprender nuevas tecnologías y seguir creciendo como profesional cada día",
+    "location": {
+      "address": "Calle Del Roble 64",
+      "postalCode": "30320",
+      "city": "Fuente Alamo",
+      "countryCode": "España",
+      "region": "Murcia"
+    },
+    "profiles": [
+      {
         "network": "Github",
         "username": "MiguelJAS",
-        "url": "https://github.com/MiguelJAS"  },
+        "url": "https://github.com/MiguelJAS"
+      },
       {
         "network": "Linkedin",
         "username": "Miguel",
         "url": "https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"
-      }]
-    },
-    "work": [{
+      }
+    ]
+  },
+  "work": [
+    {
       "name": "MetaEnlace",
-      "position": "Técnico especialista en Java",
+      "position": "Técnico Especialista en Java",
       "url": "https://metaenlace.com/",
-      "startDate": "15-06-2023",
-      "endDate": "01-03-2024",
-      "summary": "Description…",
-      "highlights": [
-        "Started the company"
-      ]
-    }],
-    "education": [{
+      "startDate": "06-2023",
+      "endDate": "03-2024",
+      "summary": "Soprte y Desarrollo de aplicaciones web y mobiles en el cliente Gs España",
+      "highlights": ["Started the company"]
+    }
+  ],
+  "education": [
+    {
       "institution": "CIFP CARLOS III",
       "url": "https://cifpcarlos3.es/es",
       "area": "Desarrollo de Aplicaciones Web",
       "studyType": "Ciclo Formativo Superior",
       "startDate": "2021-09-15",
       "endDate": "2023-06-15",
-      "courses": [
-        "DB1101 - Basic SQL"
-      ]
-    }],
-    "certificates": [{
+      "courses": ["DB1101 - Basic SQL"]
+    }
+  ],
+  "certificates": [
+    {
       "name": "B1 Preliminary",
       "date": "2018-07-15",
       "issuer": "Cambridge",
       "url": "https://www.cambridgeenglish.org/es/exams-and-tests/preliminary/"
-    }],
-    "skills": [{
+    }
+  ],
+  "skills": [
+    {
       "name": "Web Development",
       "level": "Junior",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ]
-    }],
-    "languages": [{
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    }
+  ],
+  "languages": [
+    {
       "language": "Español",
       "fluency": "Idioma nativo"
-    }],
-    "interests": [{
+    }
+  ],
+  "interests": [
+    {
       "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
-    }],
-    "projects": [{
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "projects": [
+    {
       "name": "Project",
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
       "description": "Description...",
-      "highlights": [
-        "Won award at AIHacks 2016"
-      ],
+      "highlights": ["Won award at AIHacks 2016"],
       "url": "https://project.com/"
-    }]
-  }
+    }
+  ]
+}
