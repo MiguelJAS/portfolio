@@ -1,20 +1,47 @@
 ---
 import Section from "../Section.astro";
-import {education} from "../../cv.json"
-
-
+import { education } from "../../cv.json";
 ---
 
-<Section title="Educación" >
-
+<Section title="Education">
   <ul>
-    {education.map(({institution, area, startDate, endDate }) =>
-    <li>
-      <h2>{institution}</h2>
-      <h3>{startDate} - {endDate}</h3>
-      <p>{area}</p>
-    </li>
-    )}
+    {
+      education.map(({ institution, area, startDate, endDate }) => {
+        const startYear = new Date(startDate).getFullYear();
+        const endYear =
+          endDate != null ? new Date(endDate).getFullYear() : "Actual";
+        const years = `${startYear} - ${endYear}`;
+        return (
+          <li>
+            <article>
+              <header>
+                <h3>{institution}</h3>
+                <time>{years}</time>
+              </header>
+              <footer>
+                <p>{area}</p>
+              </footer>
+            </article>
+          </li>
+        );
+      })
+    }
   </ul>
+</Section>
 
-  </Section>
+<style>
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+  }
+  time {
+    font-size: 0.85rem;
+    color: #555;
+  }
+  article h3 {
+    font-weight: 500;
+    color: #111;
+  }
+</style>

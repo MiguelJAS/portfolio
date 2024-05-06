@@ -3,9 +3,8 @@
     "name": "Miguel Jesús Alfonso Sánchez",
     "label": "Software Developer",
     "image": "/public/miguel.jpg",
-    "email": "miguel.alfonso.sanchez@gmail.com",
+    "email": "miguel.alfonso.dev@gmail.com",
     "phone": "692039273",
-    "url": "",
     "summary": "Aficionado a la programación y el deporte. Enfocado en aprender nuevas tecnologías y seguir creciendo como profesional cada día",
     "location": {
       "address": "Calle Del Roble 64",
@@ -31,22 +30,17 @@
     {
       "name": "MetaEnlace",
       "position": "Técnico Especialista en Java",
-      "url": "https://metaenlace.com/",
-      "startDate": "06-2023",
-      "endDate": "03-2024",
-      "summary": "Soprte y Desarrollo de aplicaciones web y mobiles en el cliente Gs España",
-      "highlights": ["Started the company"]
+      "startDate": "2023-06-15",
+      "endDate": "2024-03-01",
+      "summary": "Soporte y Desarrollo de aplicaciones web y mobiles para uno de los clientes de la empresa"
     }
   ],
   "education": [
     {
       "institution": "CIFP CARLOS III",
-      "url": "https://cifpcarlos3.es/es",
-      "area": "Desarrollo de Aplicaciones Web",
-      "studyType": "Ciclo Formativo Superior",
+      "area": "Ciclo Formativo Superior de Aplicaciones Web",
       "startDate": "2021-09-15",
-      "endDate": "2023-06-15",
-      "courses": ["DB1101 - Basic SQL"]
+      "endDate": "2023-06-15"
     }
   ],
   "certificates": [
@@ -59,21 +53,45 @@
   ],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Junior",
-      "keywords": ["HTML", "CSS", "JavaScript"]
+      "name": "HTML",
+      "level": "Junior"
+    },
+    {
+      "name": "CSS",
+      "level": "Junior"
+    },
+    {
+      "name": "JavaScritp",
+      "level": "Junior"
+    },
+    {
+      "name": "Java",
+      "level": "Junior"
+
+    },
+    {
+      "name": "Sql",
+      "level": "Junior"
+    },
+    {
+      "name": "Git",
+      "level": "Junior"
+    },
+    {
+      "name": "Github",
+      "level": "Junior"
     }
+    
+
   ],
   "languages": [
     {
       "language": "Español",
       "fluency": "Idioma nativo"
-    }
-  ],
-  "interests": [
+    },
     {
-      "name": "Wildlife",
-      "keywords": ["Ferrets", "Unicorns"]
+      "language": "Inglés",
+      "fluency": "Intermedio"
     }
   ],
   "projects": [
