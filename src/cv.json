@@ -32,24 +32,31 @@
       "position": "Técnico Especialista en Java",
       "startDate": "2023-06-15",
       "endDate": "2024-03-01",
-      "summary": "Soporte y Desarrollo de aplicaciones web y mobiles"
+      "summary": "Trabajé dando soporte de aplicaciones, tanto webs cómo mobiles. Realicé desarrollos en dichas aplicaciones tanto en el lado del backend y  frontend"
+    },
+    {
+      "name": "Antonio y Pedro Mendoza, S.L.",
+      "position": "Asesor Servicio Postventa Mercedes-Benz",
+      "startDate": "2018-08-01",
+      "endDate": "2019-04-01",
+      "summary": "Trabajé gestionando la recepción y entrega del vehículo con su correspodiente apertura de orden de trabajo. Comunicación permanente con el cliente para informar del estado de la reparación de su vehículo y además la realización de los trámites de garantías oportunos. Por último también ayudaba con la gestión de los cierres trimestrales"
     }
   ],
   "education": [
     {
-      "institution": "CIFP CARLOS III",
+      "institution": "CIFP Carlos III",
       "area": "Ciclo Formativo Superior en Desarrollo de Aplicaciones Web",
       "startDate": "2021-09-15",
       "endDate": "2023-06-15"
     },
     {
-      "institution": "IES RICARDO ORTEGA",
+      "institution": "IES Ricardo Ortega",
       "area": "Ciclo Formativo Superior en Administración y Finanzas",
       "startDate": "2016-09-15",
       "endDate": "2018-06-15"
     },
     {
-      "institution": "IES RICARDO ORTEGA",
+      "institution": "IES Ricardo Ortega",
       "area": "Ciclo Formativo de Grado Medio en Gestión Administrativa",
       "startDate": "2014-09-15",
       "endDate": "2016-06-15"
@@ -57,9 +64,9 @@
   ],
   "certificates": [
     {
-      "name": "B1 Preliminary",
-      "date": "2018-07-15",
-      "issuer": "Cambridge",
+      "name": "Preliminary English Test",
+      "date": "2018",
+      "issuer": "Cambridge English",
       "url": "https://www.cambridgeenglish.org/es/exams-and-tests/preliminary/"
     }
   ],
@@ -73,7 +80,7 @@
       "level": "Junior"
     },
     {
-      "name": "JavaScritp",
+      "name": "JavaScript",
       "level": "Junior"
     },
     {
@@ -92,7 +99,16 @@
     {
       "name": "Github",
       "level": "Junior"
+    },
+    {
+      "name": "Astro",
+      "level": "Junior"
+    },
+    {
+      "name": "Preliminary English Test",
+      "level": "Junior"
     }
+   
     
 
   ],
