@@ -32,15 +32,27 @@
       "position": "Técnico Especialista en Java",
       "startDate": "2023-06-15",
       "endDate": "2024-03-01",
-      "summary": "Soporte y Desarrollo de aplicaciones web y mobiles para uno de los clientes de la empresa"
+      "summary": "Soporte y Desarrollo de aplicaciones web y mobiles"
     }
   ],
   "education": [
     {
       "institution": "CIFP CARLOS III",
-      "area": "Ciclo Formativo Superior de Aplicaciones Web",
+      "area": "Ciclo Formativo Superior en Desarrollo de Aplicaciones Web",
       "startDate": "2021-09-15",
       "endDate": "2023-06-15"
+    },
+    {
+      "institution": "IES RICARDO ORTEGA",
+      "area": "Ciclo Formativo Superior en Administración y Finanzas",
+      "startDate": "2016-09-15",
+      "endDate": "2018-06-15"
+    },
+    {
+      "institution": "IES RICARDO ORTEGA",
+      "area": "Ciclo Formativo de Grado Medio en Gestión Administrativa",
+      "startDate": "2014-09-15",
+      "endDate": "2016-06-15"
     }
   ],
   "certificates": [
