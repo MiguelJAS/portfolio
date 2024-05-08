@@ -1,0 +1,47 @@
+---
+import { certificates } from "../../cv.json";
+import Section from "../Section.astro";
+---
+
+<Section title="Certificates">
+  <ul>
+    {
+      certificates.map(({ name, date, issuer }) => {
+        return (
+          <li>
+            <header>
+              <h3>{issuer}</h3>
+              <time>{date}</time>
+            </header>
+            <footer>
+              <p>{name}</p>
+            </footer>
+          </li>
+        );
+      })
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+
+  h3 {
+    font-weight: 500;
+    color: #111;
+  }
+  time {
+    font-size: 0.85rem;
+    color: #555;
+  }
+</style>

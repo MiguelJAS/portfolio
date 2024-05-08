@@ -11,6 +11,8 @@ const { name, label, image, location, profiles, phone, email, summary } =
   basics;
 const { city, region } = location;
 
+const printInfo = [email, phone].filter(Boolean).join(" • ")
+
 //Preguntar a Sergi
 //No entiendo porque no coge los iconos directamente y crea este objeto
 const SOCIAL_ICONS: Record<string, any> = {
@@ -28,7 +30,10 @@ const SOCIAL_ICONS: Record<string, any> = {
         <Map />
         <p>{city}, {region}</p>
       </span>
-      <footer>
+      <footer class="print">
+        {printInfo}
+      </footer>
+      <footer  class="no-print">
         {
           email && (
             <>
@@ -76,7 +81,7 @@ const SOCIAL_ICONS: Record<string, any> = {
       </footer>
     </div>
     <figure>
-      <img src="/public/Miguel DSCF1727.jpg" alt="imagen de Miguel" />
+      <img src={image} alt="Una foto de Miguel Jesús" title="Una foto de Miguel Jesús">
     </figure>
   </div>
 </Section>
@@ -97,6 +102,7 @@ const SOCIAL_ICONS: Record<string, any> = {
   }
 
   footer{
+    font-size: 0.75rem;
     display: flex;
     gap: 4px;
     margin-top: 8px;
