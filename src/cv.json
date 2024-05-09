@@ -39,7 +39,7 @@
       "position": "Asesor Servicio Postventa Mercedes-Benz",
       "startDate": "2018-08-01",
       "endDate": "2019-04-01",
-      "summary": "Trabajé gestionando la recepción y entrega del vehículo con su correspodiente apertura de orden de trabajo. Comunicación permanente con el cliente para informar del estado de la reparación de su vehículo y además la realización de los trámites de garantías oportunos. Por último también ayudaba con la gestión de los cierres trimestrales"
+      "summary": "Trabajé gestionando la recepción y entrega vehículos con su correspodiente orden de trabajo. Comunicación permanente con el cliente para informar del estado de la reparación de su vehículo y además la realización de los trámites de garantías oportunos. Por último también ayudaba con la gestión de los cierres trimestrales"
     }
   ],
   "education": [
@@ -84,6 +84,14 @@
       "level": "Junior"
     },
     {
+      "name": "React",
+      "level": "Junior"
+    },
+    {
+      "name": "Astro",
+      "level": "Junior"
+    },
+    {
       "name": "Java",
       "level": "Junior"
     },
@@ -92,19 +100,15 @@
       "level": "Junior"
     },
     {
+      "name": "PLSQL",
+      "level": "Junior"
+    },
+    {
       "name": "Git",
       "level": "Junior"
     },
     {
       "name": "Github",
-      "level": "Junior"
-    },
-    {
-      "name": "Astro",
-      "level": "Junior"
-    },
-    {
-      "name": "Preliminary English Test",
       "level": "Junior"
     }
   ],
